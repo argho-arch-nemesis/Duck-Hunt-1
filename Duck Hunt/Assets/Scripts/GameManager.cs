@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using Unity.UI;
 using System.Collections;
 
 public class GameManager : MonoBehaviour
@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 	public GameObject flyAwaySky;
     public GameObject roundPopup;
     public GameObject roundPopupNumText;
-    Text roundPopupText;
+    TextMesh roundPopupText;
     Shooter shoot;
 
     // Use this for initialization
@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
 	{
         GameObject shooter = GameObject.Find("Main Camera");
         shoot = shooter.GetComponent<Shooter>();
-        roundPopupText = roundPopupNumText.GetComponent<Text>();
+        //roundPopupText = roundPopupNumText.GetComponent<Text>();
 
 		GameManager.OnDuckMiss += FlyAwaySkyOn;
 		GameManager.OnDuckFlyAway += FlyAwaySkyOff;

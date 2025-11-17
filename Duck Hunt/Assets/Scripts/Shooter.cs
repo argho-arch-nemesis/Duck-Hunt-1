@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using Unity.UI;
 using System.Collections;
 
 public class Shooter : MonoBehaviour
@@ -18,11 +18,11 @@ public class Shooter : MonoBehaviour
     public GameObject bullet2;
     public GameObject bullet3;
 
-    private Text scoreTxt;
+    private TextMesh scoreTxt;
     private int score;
     public GameObject scoreObject;
 
-    private Text roundText;
+    private TextMesh roundText;
     public GameObject roundObject;
 
     private int bulletAmount;
@@ -40,8 +40,8 @@ public class Shooter : MonoBehaviour
     {
 		anim = whiteDucks.GetComponent<Animator> ();
 
-        scoreTxt = scoreObject.GetComponent<Text>();
-        roundText = roundObject.GetComponent<Text>();
+        scoreTxt = scoreObject.GetComponent<TextMesh>();
+        roundText = roundObject.GetComponent<TextMesh>();
         StaticVars.duckNum = 1;
         duckShotNum = 0;
         StaticVars.roundNum = 1;
