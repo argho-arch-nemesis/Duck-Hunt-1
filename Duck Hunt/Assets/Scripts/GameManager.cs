@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Unity.UI;
 using System.Collections;
 
 public class GameManager : MonoBehaviour

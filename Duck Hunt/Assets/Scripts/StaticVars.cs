@@ -7,6 +7,4 @@ public class StaticVars : MonoBehaviour
 	public static int roundNum;
 	public static int duckNum;
 	public static bool paused = false;
-
-
 }
