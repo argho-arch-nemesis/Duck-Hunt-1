@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 	public GameObject flyAwaySky;
     public GameObject roundPopup;
     public GameObject roundPopupNumText;
-    TextMesh roundPopupText;
+    public TextMesh roundPopupText;
     Shooter shoot;
 
     // Use this for initialization

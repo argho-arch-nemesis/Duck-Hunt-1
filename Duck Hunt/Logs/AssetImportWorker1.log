@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61764
+60073
 Successfully changed project path to: /Users/Argho/git/Duck-Hunt/Duck Hunt
 /Users/Argho/git/Duck-Hunt/Duck Hunt
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,15 +56,15 @@ Successfully changed project path to: /Users/Argho/git/Duck-Hunt/Duck Hunt
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8328093888]  Target information:
+Player connection [8712577216]  Target information:
 
-Player connection [8328093888]  * "[IP] 10.18.5.223 [Port] 0 [Flags] 2 [Guid] 822707103 [EditorId] 822707103 [Version] 1048832 [Id] OSXEditor(0,apples-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8712577216]  * "[IP] 192.168.1.159 [Port] 0 [Flags] 2 [Guid] 2508610274 [EditorId] 2508610274 [Version] 1048832 [Id] OSXEditor(0,apples-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8328093888] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8328093888] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8712577216] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8712577216] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
-Refreshing native plugins compatible for Editor in 1.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f2 (7670c08855a9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Resources/UnitySubsystems
@@ -79,54 +79,54 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56722
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56309
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.62f2/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.62f2/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.62f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.004747 seconds.
-- Loaded All Assemblies, in  0.193 seconds
+Registered in 0.004580 seconds.
+- Loaded All Assemblies, in  0.192 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 59 ms
+Android Extension - Scanning For ADB Devices 67 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.251 seconds
-Domain Reload Profiling: 444ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 446ms
+	BeginReloadAssembly (58ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (16ms)
+	RebuildCommonClasses (17ms)
 	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (82ms)
-		LoadAssemblies (63ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (80ms)
-			TypeCache.Refresh (79ms)
-				TypeCache.ScanAssembly (72ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (251ms)
+	FinalizeReload (253ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (229ms)
+		SetupLoadedEditorAssemblies (230ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (156ms)
-			SetLoadedEditorAssemblies (3ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
 			ProcessInitializeOnLoadAttributes (50ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -135,76 +135,1676 @@ Domain Reload Profiling: 444ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.221 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 429ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (21ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (210ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (47.1 KB). Loaded Objects now: 2007.
+Memory consumption went from 94.8 MB to 94.7 MB.
+Total: 2.237250 ms (FindLiveObjects: 0.053875 ms CreateObjectMapping: 0.015042 ms MarkObjects: 2.117250 ms  DeleteObjects: 0.050708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31e293000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.181 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 499ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (59ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.8 KB). Loaded Objects now: 2046.
+Memory consumption went from 99.4 MB to 99.3 MB.
+Total: 1.612125 ms (FindLiveObjects: 0.057292 ms CreateObjectMapping: 0.016583 ms MarkObjects: 1.524166 ms  DeleteObjects: 0.013750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95395.840989 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/ArrowsHorizontal.prefab
+  artifactKey: Guid(3066c3a8fcfd6fc4482868bf62045594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/ArrowsHorizontal.prefab using Guid(3066c3a8fcfd6fc4482868bf62045594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '58735795916f30f7f2373b523e1d237b') in 0.036981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31e293000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.169 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 524ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (90ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (355ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (138ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.8 KB). Loaded Objects now: 2047.
+Memory consumption went from 106.0 MB to 105.9 MB.
+Total: 1.635375 ms (FindLiveObjects: 0.066042 ms CreateObjectMapping: 0.015375 ms MarkObjects: 1.527500 ms  DeleteObjects: 0.025833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31e293000 may have been prematurely finalized
 - Loaded All Assemblies, in  0.158 seconds
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.179 seconds
-Domain Reload Profiling: 338ms
-	BeginReloadAssembly (60ms)
+- Finished resetting the current domain, in  0.271 seconds
+Domain Reload Profiling: 429ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (126ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.8 KB). Loaded Objects now: 2047.
+Memory consumption went from 112.9 MB to 112.8 MB.
+Total: 1.414917 ms (FindLiveObjects: 0.056666 ms CreateObjectMapping: 0.014542 ms MarkObjects: 1.322916 ms  DeleteObjects: 0.020459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31e293000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.158 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 433ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (86ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadAttributes (61ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.9 KB). Loaded Objects now: 2047.
+Memory consumption went from 119.5 MB to 119.5 MB.
+Total: 1.506834 ms (FindLiveObjects: 0.059500 ms CreateObjectMapping: 0.014875 ms MarkObjects: 1.413458 ms  DeleteObjects: 0.018584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31e293000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.157 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (57ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
 	RebuildCommonClasses (16ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (60ms)
-		LoadAssemblies (73ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (70ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (7ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (179ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (330ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (99ms)
+		SetupLoadedEditorAssemblies (130ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (1ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (21ms)
 			ProcessInitializeOnLoadAttributes (62ms)
-			ProcessInitializeOnLoadMethodAttributes (9ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.8 KB). Loaded Objects now: 2047.
+Memory consumption went from 126.2 MB to 126.2 MB.
+Total: 1.416750 ms (FindLiveObjects: 0.054458 ms CreateObjectMapping: 0.014084 ms MarkObjects: 1.330084 ms  DeleteObjects: 0.017666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31ed0b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.159 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (139ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 318 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets / (44.2 KB). Loaded Objects now: 790.
-Memory consumption went from 64.3 MB to 64.3 MB.
-Total: 1.626208 ms (FindLiveObjects: 0.022500 ms CreateObjectMapping: 0.005667 ms MarkObjects: 1.561166 ms  DeleteObjects: 0.036625 ms)
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.9 KB). Loaded Objects now: 2047.
+Memory consumption went from 132.8 MB to 132.8 MB.
+Total: 1.582334 ms (FindLiveObjects: 0.049917 ms CreateObjectMapping: 0.014791 ms MarkObjects: 1.496750 ms  DeleteObjects: 0.020584 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31edcb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.139 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.239 seconds
+Domain Reload Profiling: 378ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (51ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (4ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (239ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.9 KB). Loaded Objects now: 2047.
+Memory consumption went from 139.5 MB to 139.5 MB.
+Total: 1.596541 ms (FindLiveObjects: 0.056667 ms CreateObjectMapping: 0.014750 ms MarkObjects: 1.505166 ms  DeleteObjects: 0.019750 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31ef57000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.174 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.366 seconds
+Domain Reload Profiling: 540ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (71ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (153ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.9 KB). Loaded Objects now: 2047.
+Memory consumption went from 146.2 MB to 146.2 MB.
+Total: 1.641375 ms (FindLiveObjects: 0.057083 ms CreateObjectMapping: 0.015000 ms MarkObjects: 1.536875 ms  DeleteObjects: 0.032042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x35c8cf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.172 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.356 seconds
+Domain Reload Profiling: 530ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (69ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (357ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (144ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.9 KB). Loaded Objects now: 2047.
+Memory consumption went from 152.9 MB to 152.8 MB.
+Total: 1.720042 ms (FindLiveObjects: 0.059166 ms CreateObjectMapping: 0.015333 ms MarkObjects: 1.620709 ms  DeleteObjects: 0.024458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x35e363000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.150 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.341 seconds
+Domain Reload Profiling: 491ms
+	BeginReloadAssembly (57ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (9ms)
+	LoadAllAssembliesAndSetupDomain (62ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (341ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (137ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (24.9 KB). Loaded Objects now: 2047.
+Memory consumption went from 159.5 MB to 159.5 MB.
+Total: 1.550375 ms (FindLiveObjects: 0.059250 ms CreateObjectMapping: 0.015125 ms MarkObjects: 1.457458 ms  DeleteObjects: 0.018209 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x35e46f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.158 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 485ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (64ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (134ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (62ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (25.0 KB). Loaded Objects now: 2047.
+Memory consumption went from 166.1 MB to 166.1 MB.
+Total: 1.627750 ms (FindLiveObjects: 0.049292 ms CreateObjectMapping: 0.014625 ms MarkObjects: 1.542625 ms  DeleteObjects: 0.020833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x31ee97000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.208 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.377 seconds
+Domain Reload Profiling: 585ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (377ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (138ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1604 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (0.6 MB). Loaded Objects now: 2081.
+Memory consumption went from 177.6 MB to 176.9 MB.
+Total: 1.753167 ms (FindLiveObjects: 0.057250 ms CreateObjectMapping: 0.014875 ms MarkObjects: 1.501125 ms  DeleteObjects: 0.179625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: 7c3049f481e464c6a9a15dee56c3126f -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Editor: b16f086f6483803079c08dbb0e9e005e -> 
+  custom:scripting/monoscript/fileName/SimpleInputDragListener.cs: e70e89b11f10fbbe1f553f68da2c49a6 -> 
+  custom:scripting/monoscript/fileName/ButtonInputKeyboard.cs: ba25923f154a63c5784ce1232d468254 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputSwipeGesture.cs: 7ee8a5727ee40a85fb7fa6a75850aa15 -> 
+  custom:scripting/monoscript/fileName/SimpleInput.cs: 19c198c77e4a747ec81d49f894402aeb -> 
+  custom:scripting/monoscript/fileName/SwipeGestureBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Dpad.cs: 1d0a65058286db0581ff769384403511 -> 
+  custom:scripting/monoscript/fileName/BaseInput.cs: 5d583b3c06f8372fbc5dcf1039a62ed5 -> 2124093b3f8a7fbb31af4584d7906f17
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: c142d02d70a129e0533975f7c2f96956 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AxisInputMouse.cs: e1b8e00523cffe7088e2230fe5dd6251 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 1b4f61c17e4b7283c3ac351aacff9d26 -> 
+  custom:scripting/monoscript/fileName/AxisInputDrawer.cs: 1f4474b5d272ca49bf560a178fd66612 -> 
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 55ce425812446482e623ff2695c94cb2 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: f5cd9d5a43bfefc8f4fec80e6de896a4 -> 
+  custom:scripting/monoscript/fileName/KeyInputUI.cs: 9ced766321c62164f358eb2683dcee24 -> 
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 92608fa4a6315cd0786d82205e77b697 -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggableMultiTouch.cs: bad0aae7acfc31886d5d6cd64511bb37 -> 
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 650ab1e81d40126e3edcf737cce646e4 -> 
+  custom:scripting/monoscript/fileName/SimpleScript.cs: 454caab0c6c050f29b39d82e1d66d0fa -> 
+  custom:scripting/monoscript/fileName/SimpleInputUtils.cs: 2b7179258bf8caef7276524804fd56a8 -> 
+  custom:scripting/monoscript/fileName/AxisInputKeyboard.cs: 4c59efc46215873528eb46c47b9a57d8 -> 
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: 2b96bb2079dd7fa5108d981627a28e1e -> 
+  custom:scripting/monoscript/fileName/Touchpad.cs: af8171bd9de94ceab200fecaa797664a -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 63ec564c588058369499638dd899e05b -> 
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: a9d4be556104ff54e7d240529b3e01dc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 13505d917eab5868c435e0c2986dadfa -> 
+  custom:scripting/monoscript/fileName/ButtonInputSwipeGesture.cs: 57fd3587f7d3a1b2753240f33c7f512a -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 1daac0040b3fce2177f6ca4f90eb8c5b -> 90f26c7c63924735c23c826b8a781463
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: ba2be21a7486d37b1011342977a2e49d -> 
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 2d3e2cd961730ab95f139a49a673bace -> 
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 3f1709cfb2cc628169113a35b5e9be3f -> 
+  custom:scripting/monoscript/fileName/ButtonInputUI.cs: 860f7312d94ca0d38c049eb09b4ebb79 -> 
+  custom:scripting/monoscript/fileName/AxisInputRotateGesture.cs: c3a9ef0ee267b1c6d5f3a96e5c245615 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/KeyInputKeyboard.cs: 90fcee54091edb186581d662ee44b0f5 -> 
+  custom:scripting/monoscript/fileName/SelectivePointerInput.cs: 5e57eed8b4ce4d406f51c54daa1ec5c9 -> 
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 347309a09d56e367b188a6978f75b424 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 5640963252ce70910e726415f869ced6 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DropdownSample.cs: 0a92251794e5f10400149f96c3c59e5d -> 
+  custom:scripting/monoscript/fileName/ButtonInputDrawer.cs: 14583ec797aaef62041dfb8bacb16bb2 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: d27eb5498e48714a66aece98da065133 -> 
+  custom:scripting/monoscript/fileName/AxisInputUIArrows.cs: 9e4f49dcc0a35cdd28b802d390debcb6 -> 
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: 2663459c266363641981c7d17b698d7f -> 
+  custom:scripting/monoscript/fileName/AxisInputSwipeGesture.cs: 3e7798eec0a44491ee75273411e03fa0 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AxisInputMoveGesture.cs: 584680ffe2cc03e6d1e18b851724ba96 -> 
+  custom:scripting/monoscript/fileName/AxisInputPinchGesture.cs: f546e06ef7b104dd75f56c5ce245c26a -> 
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: 33fc311abb20b5b0ed8f00e4d86b574e -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputKeyboard.cs: 1e9725fec1e8520e9e8b6ddf6e9b6216 -> 
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 5f984ca91cf3609293aecc6bc5641572 -> 
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 46f655df8cb483ac5958307137b1585a -> 
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: a6f78c4fcda1a29a1a1c1baefedba9e7 -> 
+  custom:scripting/monoscript/fileName/UnityInputProvider.cs: ace0180975236bb7042cbd4fa7b80d75 -> 
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: b01021aea19247f14a98ab338907956a -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ExamplePlayerController.cs: d47f83ac1db2e690ca3ad69167a102fe -> 
+  custom:scripting/monoscript/fileName/BaseInputDrawer.cs: 7a7f4cd8f8028527aa460efb14cf999f -> 
+  custom:scripting/monoscript/fileName/SteeringWheel.cs: 56729bf68c4b1cde8857cd3e3fb43441 -> 
+  custom:scripting/monoscript/fileName/Joystick.cs: 62df7bb7703aa7fc0947494d614e76dd -> 
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: b626d2270e6ebd5c4311585c18b58d8d -> 
+  custom:scripting/monoscript/fileName/ChatController.cs: 876d5ccae6e345dd5d9450eb0a748f16 -> 
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: ac02af96215ae3951a3cce9e1a8c6085 -> 
+  custom:scripting/monoscript/fileName/KeyInputDrawer.cs: 1dfaad815a1c0a7c5aee80ef2c46a549 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: 76f28e2ddb031571e6ec62b018f65fa8 -> 
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 6148cfe2627b7708298f301788144139 -> 
+  custom:scripting/monoscript/fileName/TeleType.cs: 31fa97821c4c70f157ec81d507aa6b62 -> 
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 32220b148620e52aa81c13a114862bf4 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputDrawer.cs: d3764dae7657d5ecbe906ef6dd0cc964 -> 
+  custom:scripting/monoscript/fileName/KeyInputSwipeGesture.cs: 9179e959774cf3fe6ccc5e3d5adea90f -> 
+  custom:scripting/monoscript/fileName/NonDrawingGraphic.cs: c2094ae89b103fb99b7fa794d364ee1e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d9c809fa07455fc099ea3d555d319b08 -> f347620464db6c8ca12d428a92ccca99
+  custom:scripting/monoscript/fileName/SimpleInputMultiDragListener.cs: 3367a275164e284edd0600b9f3926f78 -> 
+  custom:scripting/monoscript/fileName/MouseButtonInputUI.cs: d89dff9ee068b6592ddeb6d855f78ea5 -> 
+  custom:scripting/precompiled-assembly-types:SimpleInput.Runtime: 94b2ee7a6b753f31e5020ca74af75389 -> 
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 17cc87e0529ac71d909a946afb47a274 -> 
+  custom:scripting/monoscript/fileName/AxisInputUI.cs: 8e9e9e7d81bf0b577b799997060acaa2 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ISimpleInputDraggable.cs: 02e2c0f5c4c7b09cca95cd6995751649 -> 
+  custom:scripting/monoscript/fileName/SimpleInputHelper.cs: b3a83afe8525559ea8de8bf181ae12d3 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 85357.714774 seconds.
-  path: Assets/Sprites/Other/orange.png
-  artifactKey: Guid(fc5b5e2c56f63844c96d427d6f5f9117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Other/orange.png using Guid(fc5b5e2c56f63844c96d427d6f5f9117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+  Time since last request: 963.369121 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
- -> (artifact id: '43927a7ad05503ecfdf9306f482c5242') in 0.086718 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'd1d3d200d3f95a5fbaa23feb97c530ba') in 0.183772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'cc731ca25c3bf0abb1184f75573833dd') in 0.007111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 27.660898 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/OtherSprites/SteeringWheel.png
+  artifactKey: Guid(381b429e58f0f984a827788e78839b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/OtherSprites/SteeringWheel.png using Guid(381b429e58f0f984a827788e78839b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '48c391fe164cf3df0e3abadcb8f1ab35') in 0.044194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/2DWeaponPack/Sprites/UMP/ump_unloaded.png
+  artifactKey: Guid(7fe82a519b7d6db48a820cc54cf54651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/UMP/ump_unloaded.png using Guid(7fe82a519b7d6db48a820cc54cf54651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '4fa659f008cfeb951460c56823a144f0') in 0.027774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2DWeaponPack/Sprites/UZI/uzi_silencer.png
+  artifactKey: Guid(a5a99f4b5408eb14abfe5a4cd7be7bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/UZI/uzi_silencer.png using Guid(a5a99f4b5408eb14abfe5a4cd7be7bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '7a299067d76d3460d09351bc565aae0d') in 0.022011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/2DWeaponPack/Sprites/UZI/uzi.png
+  artifactKey: Guid(e2209eec82a34a048887f46bf4eccf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/UZI/uzi.png using Guid(e2209eec82a34a048887f46bf4eccf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '4c0aa44bc8fd430cb2e986638eb7e979') in 0.012113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.318349 seconds.
+  path: Assets/2DWeaponPack/Sprites/Utility/smoke.png
+  artifactKey: Guid(bed5451fd0e8faa40a772d2950a50271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Utility/smoke.png using Guid(bed5451fd0e8faa40a772d2950a50271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '20556d33b90ec53cd1aaa51db24ea493') in 0.009512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.722499 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png
+  artifactKey: Guid(be6deb8bf525f96498b79add47297699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Buttons/shadedDark45.png using Guid(be6deb8bf525f96498b79add47297699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'd1f7ee77a27c3f4f715c761f5326aba7') in 0.009684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight05.png
+  artifactKey: Guid(9329ad6eca7fdf849b8885dea848b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedLight/DpadMultiplePieces/shadedLight05.png using Guid(9329ad6eca7fdf849b8885dea848b783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '32baf554ae7a528f82712c88c5744189') in 0.004436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.259868 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark24.png
+  artifactKey: Guid(1406f387437800b49a1cb6cf728e11e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark24.png using Guid(1406f387437800b49a1cb6cf728e11e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '9db5b903d4e5502de08a8f1244fdad85') in 0.004563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png
+  artifactKey: Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/Arrows/shadedDark26.png using Guid(e2f20be4a9f1c184485bcdc7bc65e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'ba394e953fc2bca930ce2a4d8f53588e') in 0.003245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.256555 seconds.
+  path: Assets/2DWeaponPack/Sprites/Sawed_off/sawed_off_part_1.png
+  artifactKey: Guid(5ac1eb62bf733ea449deab4f5291fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Sawed_off/sawed_off_part_1.png using Guid(5ac1eb62bf733ea449deab4f5291fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'f681b44a1f6c01215e3de9796d9e830d') in 0.005088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Plugins/SimpleInput/Sprites/ShadedDark/DpadOnePiece/shadedDark04.png
+  artifactKey: Guid(a7b49600f61b7674380e5aaec149d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Sprites/ShadedDark/DpadOnePiece/shadedDark04.png using Guid(a7b49600f61b7674380e5aaec149d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '3db12918ecb72ef7d178aba1a1b4b61d') in 0.004079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.667636 seconds.
+  path: Assets/2DWeaponPack/Sprites/Rpg/rpg.png
+  artifactKey: Guid(86c506b9116c23246a74ec5edf9deb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Rpg/rpg.png using Guid(86c506b9116c23246a74ec5edf9deb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '0e0b42b85d2bf73f3c635929a155c182') in 0.009470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.415178 seconds.
+  path: Assets/2DWeaponPack/Sprites/Bullets/rifle_bullet.png
+  artifactKey: Guid(7072c2987cb7723428a59bbfec54541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Bullets/rifle_bullet.png using Guid(7072c2987cb7723428a59bbfec54541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '6d93f01c44cdb7e0267f26630e555c13') in 0.003666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.202024 seconds.
+  path: Assets/Kalkatos/DottedArrow/Example/Sprites/queen.png
+  artifactKey: Guid(6777982b4d7adf04887cd8a88fce5729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kalkatos/DottedArrow/Example/Sprites/queen.png using Guid(6777982b4d7adf04887cd8a88fce5729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '7677d2aaa2dbceeed118c167940fe041') in 0.024026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.064976 seconds.
+  path: Assets/2DWeaponPack/Sprites/PSL/psl.png
+  artifactKey: Guid(0349c81585fd4044097225c2367ca32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/PSL/psl.png using Guid(0349c81585fd4044097225c2367ca32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'f46897981a75450bc96e613b236b68e1') in 0.003802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.909054 seconds.
+  path: Assets/2DWeaponPack/Sprites/M4A4/m4a4_unlaoded.png
+  artifactKey: Guid(cd2eb795682b943498950cbecf9362cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/M4A4/m4a4_unlaoded.png using Guid(cd2eb795682b943498950cbecf9362cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'b23b2579e0a3e3604e6d3035d069b9aa') in 0.007196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2DWeaponPack/Sprites/Nova/nova_part1.png
+  artifactKey: Guid(f4f4933048162c44cb6bdc93b09ce63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Nova/nova_part1.png using Guid(f4f4933048162c44cb6bdc93b09ce63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '61f0a538c182e77583ea0eee40f59833') in 0.004182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.459429 seconds.
+  path: Assets/Kalkatos/DottedArrow/Example/Sprites/jack.png
+  artifactKey: Guid(8774e86e736c9cb41a211789d0661e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kalkatos/DottedArrow/Example/Sprites/jack.png using Guid(8774e86e736c9cb41a211789d0661e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'aac5a726d8283cf6f1b2d7c057b8096e') in 0.008094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.377185 seconds.
+  path: Assets/2DWeaponPack/Sprites/Glock_18/glock_18_part_2.png
+  artifactKey: Guid(67695bb771032014a99ba72f985ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Glock_18/glock_18_part_2.png using Guid(67695bb771032014a99ba72f985ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'a25b6a53f78b9b07c0250a76e50372c7') in 0.005359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.294972 seconds.
+  path: Assets/2DWeaponPack/Sprites/Glock_18/glock-18.png
+  artifactKey: Guid(76e1f7391bdef7243820880a793ddd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Glock_18/glock-18.png using Guid(76e1f7391bdef7243820880a793ddd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'f1a37f777c7ac19f27c61e173667593f') in 0.080036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048175 seconds.
+  path: Assets/2DWeaponPack/Sprites/Five_seven/fiveseven_mag.png
+  artifactKey: Guid(edde09a2bf07e334395c0a6246e7b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Five_seven/fiveseven_mag.png using Guid(edde09a2bf07e334395c0a6246e7b97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'c54ab5df5c20dcdc4cb54c8d018e7b6a') in 0.004203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.594245 seconds.
+  path: Assets/2DWeaponPack/Sprites/Five_seven/five_seven.png
+  artifactKey: Guid(9830e4ce5d183d145bdcb9b155a046cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Five_seven/five_seven.png using Guid(9830e4ce5d183d145bdcb9b155a046cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'dee77d1d701abf78063ccd77b8b81ffc') in 0.011026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.316741 seconds.
+  path: Assets/2DWeaponPack/Sprites/Deagle/deagle_unloaded.png
+  artifactKey: Guid(acd589c099421bd45808c907604db03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Deagle/deagle_unloaded.png using Guid(acd589c099421bd45808c907604db03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '7440914e1c9347a495ae399294793bdb') in 0.010489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022634 seconds.
+  path: Assets/2DWeaponPack/Sprites/Deagle/deagle_mag.png
+  artifactKey: Guid(648c2f50b2c3e5c4892c4d71d1aaf829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/Deagle/deagle_mag.png using Guid(648c2f50b2c3e5c4892c4d71d1aaf829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '221c0badf725868288ccb7c0dd4fdb78') in 0.008667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.102177 seconds.
+  path: Assets/2DWeaponPack/Sprites/AWP/awp_silencer.png
+  artifactKey: Guid(395587f5b7a351b47bd38a7e3b5fe330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/AWP/awp_silencer.png using Guid(395587f5b7a351b47bd38a7e3b5fe330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: '045086ce2d1ea4709b287d815819f195') in 0.004495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.906870 seconds.
+  path: Assets/2DWeaponPack/Sprites/AK-47/ak-47_round_mag.png
+  artifactKey: Guid(1fa7aed9d9b3f6e4c9223b813a672f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DWeaponPack/Sprites/AK-47/ak-47_round_mag.png using Guid(1fa7aed9d9b3f6e4c9223b813a672f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 14 workers.
+ -> (artifact id: 'dcfc1941bdcd4e520df9fb4d20064d0b') in 0.004943 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
